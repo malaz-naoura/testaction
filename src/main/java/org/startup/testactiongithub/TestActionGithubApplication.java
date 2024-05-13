@@ -10,4 +10,7 @@ public class TestActionGithubApplication {
         SpringApplication.run(TestActionGithubApplication.class, args);
     }
 
+    void doit           ()         {
+                          System.out.println("doit");
+    }
 }
