@@ -6,11 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestActionGithubApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(TestActionGithubApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(TestActionGithubApplication.class, args);
+	}
 
-    void doit           ()         {
-                          System.out.println("doit");
-    }
+	void doit() {
+		System.out.println("doit");
+	}
+
 }
